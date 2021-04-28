@@ -1,0 +1,282 @@
+16:01:37.872 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+16:01:37.886 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @769ms to org.eclipse.jetty.util.log.Slf4jLog
+16:01:37.887 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+16:01:38.146 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+16:01:38.146 [main] INFO  io.javalin.Javalin - Javalin started in 260ms \o/
+16:21:01.499 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+16:21:01.518 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @662ms to org.eclipse.jetty.util.log.Slf4jLog
+16:21:01.520 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+16:21:01.848 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+16:21:01.848 [main] INFO  io.javalin.Javalin - Javalin started in 329ms \o/
+16:21:19.459 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+16:21:19.471 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @598ms to org.eclipse.jetty.util.log.Slf4jLog
+16:21:19.473 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+16:21:19.723 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+16:21:19.723 [main] INFO  io.javalin.Javalin - Javalin started in 251ms \o/
+20:45:51.172 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @486ms to org.eclipse.jetty.util.log.Slf4jLog
+20:45:51.293 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+20:45:51.345 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+20:45:51.346 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+20:45:51.492 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+20:45:51.492 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+20:45:51.506 [main] INFO  io.javalin.Javalin - Javalin has stopped
+20:45:56.222 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @451ms to org.eclipse.jetty.util.log.Slf4jLog
+20:45:56.340 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+20:45:56.396 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+20:45:56.398 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+20:45:56.633 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+20:45:56.634 [main] INFO  io.javalin.Javalin - Javalin started in 237ms \o/
+20:46:48.530 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @380ms to org.eclipse.jetty.util.log.Slf4jLog
+20:46:48.626 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+20:46:48.681 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+20:46:48.682 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+20:46:48.925 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+20:46:48.926 [main] INFO  io.javalin.Javalin - Javalin started in 245ms \o/
+20:58:49.782 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @394ms to org.eclipse.jetty.util.log.Slf4jLog
+20:58:49.916 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+20:58:49.984 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+20:58:49.985 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+20:58:50.251 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+20:58:50.251 [main] INFO  io.javalin.Javalin - Javalin started in 267ms \o/
+21:19:33.775 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @398ms to org.eclipse.jetty.util.log.Slf4jLog
+21:19:33.877 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:19:33.931 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:19:33.932 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:19:34.159 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:19:34.159 [main] INFO  io.javalin.Javalin - Javalin started in 228ms \o/
+21:36:44.244 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @387ms to org.eclipse.jetty.util.log.Slf4jLog
+21:36:44.341 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:36:44.390 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:36:44.391 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:36:44.602 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:36:44.602 [main] INFO  io.javalin.Javalin - Javalin started in 212ms \o/
+21:40:26.482 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @385ms to org.eclipse.jetty.util.log.Slf4jLog
+21:40:26.568 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:40:26.630 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:40:26.631 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:40:26.859 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:40:26.860 [main] INFO  io.javalin.Javalin - Javalin started in 229ms \o/
+21:47:20.605 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @413ms to org.eclipse.jetty.util.log.Slf4jLog
+21:47:20.700 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:47:20.764 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:47:20.765 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:47:20.995 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:47:20.995 [main] INFO  io.javalin.Javalin - Javalin started in 231ms \o/
+21:47:34.764 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - cannot have blank username and/or password
+21:47:38.625 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:47:44.821 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - cannot have blank username and/or password
+21:47:47.059 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:47:56.156 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:48:00.334 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:48:07.527 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:48:56.942 [qtp603856241-15] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:28.180 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @505ms to org.eclipse.jetty.util.log.Slf4jLog
+21:49:28.275 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:49:28.328 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:49:28.329 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:49:28.572 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:49:28.572 [main] INFO  io.javalin.Javalin - Javalin started in 244ms \o/
+21:49:33.169 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:33.847 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:40.518 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:51.865 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:52.236 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:49:52.701 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:50:33.054 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @393ms to org.eclipse.jetty.util.log.Slf4jLog
+21:50:33.160 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:50:33.226 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:50:33.228 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:50:33.477 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:50:33.477 [main] INFO  io.javalin.Javalin - Javalin started in 251ms \o/
+21:50:39.017 [qtp212921632-19] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:50:40.000 [qtp212921632-23] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
+21:20:09.011 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @398ms to org.eclipse.jetty.util.log.Slf4jLog
+21:20:09.103 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:20:09.157 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:20:09.158 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:20:09.373 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:20:09.373 [main] INFO  io.javalin.Javalin - Javalin started in 216ms \o/
+21:22:35.422 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @350ms to org.eclipse.jetty.util.log.Slf4jLog
+21:22:35.503 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:22:35.552 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:22:35.553 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:22:35.760 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:22:35.760 [main] INFO  io.javalin.Javalin - Javalin started in 208ms \o/
+21:25:53.859 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @367ms to org.eclipse.jetty.util.log.Slf4jLog
+21:25:53.946 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:25:53.992 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:25:53.994 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:25:54.208 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:25:54.208 [main] INFO  io.javalin.Javalin - Javalin started in 215ms \o/
+21:32:28.973 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @378ms to org.eclipse.jetty.util.log.Slf4jLog
+21:32:29.062 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/Ray/Desktop/GitRepo/JavalinSessionManagement/target/classes/static/'
+21:32:29.112 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+21:32:29.112 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+21:32:29.328 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+21:32:29.328 [main] INFO  io.javalin.Javalin - Javalin started in 216ms \o/
+21:32:34.823 [qtp603856241-23] WARN  c.r.controller.ExceptionMapper - cannot have blank username and/or password
+21:32:40.412 [qtp603856241-19] WARN  c.r.controller.ExceptionMapper - User was not able to login with the supplied username and password
