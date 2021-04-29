@@ -20,8 +20,9 @@ function login() {
     }).then((response) => {
         if (response.status === 200) {
             window.location.href = '/landing.html';
-        } else if (response.status === 400) {
+        } else if (response.status >= 400) {
             displayInvalidLogin();
+
         }
     })
 

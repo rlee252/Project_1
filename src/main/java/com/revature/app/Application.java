@@ -3,6 +3,7 @@ package com.revature.app;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+import org.hibernate.Session;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +11,9 @@ import com.revature.controller.Controller;
 import com.revature.controller.ExceptionMapper;
 import com.revature.controller.LoginController;
 import com.revature.controller.StaticFileController;
+import com.revature.model.User;
 import com.revature.util.ConnectionUtil;
+import com.revature.util.SessionUtility;
 
 import io.javalin.Javalin;
 
@@ -30,8 +33,10 @@ public class Application {
 //		} catch (SQLException e) {
 //			e.printStackTrace();
 //		} 
+		Session session = SessionUtility.getSessionFactory().openSession();
 
-	
+		User reim2 = session.get(User.class, 1);
+		System.out.println(reim2);
 		
 		app.start(7000);
 	}

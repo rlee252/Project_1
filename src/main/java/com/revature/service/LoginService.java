@@ -1,10 +1,14 @@
 package com.revature.service;
 
+import java.sql.SQLException;
+
 import com.revature.DAO.UserDAO;
 
 import com.revature.dto.LoginDTO;
 import com.revature.exception.BadParameterException;
 import com.revature.exception.LoginException;
+import com.revature.exceptions.ClientNotFoundException;
+import com.revature.exceptions.DatabaseException;
 import com.revature.model.User;
 
 public class LoginService {
@@ -20,7 +24,7 @@ public class LoginService {
 	}
 	
 	
-	public User login(LoginDTO loginDTO) throws BadParameterException, LoginException {
+	public User login(LoginDTO loginDTO) throws BadParameterException, LoginException, ClientNotFoundException, DatabaseException, SQLException {
 		//Do some checking for blank username, blank password
 		if(loginDTO.getUsername().trim().equals("") || loginDTO.getPassword().trim().equals("")){
 			throw new BadParameterException("cannot have blank username and/or password");

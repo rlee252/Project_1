@@ -43,6 +43,12 @@ public class Test {
 //		user.setUserRole(ur1);
 //		tx2.commit();	
 //		
+//		Transaction tx7 = session.beginTransaction();
+//		User user3 = new User(0,null,"myUserName2","password","Gary", "Lee", "rlee252@gmail.com");
+//		session.save(user3);
+//		user3.setUserRole(ur1);
+//		tx7.commit();	
+//		
 //		User user2 = session.get(User.class, 1);
 //		System.out.println(user2);
 //		
@@ -63,12 +69,14 @@ public class Test {
 //		System.out.println(reimStat2);
 //		
 //		Transaction tx5 = session.beginTransaction();
-//		Reimbursement reim = new Reimbursement(0, user2, reimStat2,reimType2, 100, "something to say", null, null);
+//		Reimbursement reim = new Reimbursement(0, reimStat2,reimType2,user,user3, 100, "something to say", null, null);
+//		//reim.setReimbResolver(user3);
 //		session.save(reim);
 //		tx5.commit();
-//		
-//		Reimbursement reim2 = session.get(Reimbursement.class, 1);
-//		System.out.println(reim2);
+		
+		User reim2 = session.get(User.class, 1);
+		System.out.println(reim2);
+		
 		
 	}
 

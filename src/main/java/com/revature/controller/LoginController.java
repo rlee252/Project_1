@@ -18,7 +18,7 @@ public class LoginController implements Controller {
 	private Handler loginHandler = (ctx) -> {
 		LoginDTO loginDTO = ctx.bodyAsClass(LoginDTO.class);
 		User user = loginService.login(loginDTO);
-		
+
 		ctx.sessionAttribute("currentlyLoggedInUser", user);
 		ctx.json(user);
 		
