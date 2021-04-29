@@ -4,6 +4,8 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.revature.model.Reimbursement;
+import com.revature.model.ReimbursementStatus;
+import com.revature.model.ReimbursementType;
 import com.revature.model.User;
 import com.revature.model.UserRoles;
 import com.revature.util.SessionUtility;
@@ -31,18 +33,43 @@ public class Test {
 //		UserRoles userRole1 = new UserRoles(0,"Employee");
 //		session.save(userRole1);
 //		tx.commit();
-		
-		UserRoles ur1 = session.get(UserRoles.class,1);
-		//System.out.println(ur1);
-		
-//		Transaction tx = session.beginTransaction();
+//		
+//		UserRoles ur1 = session.get(UserRoles.class,1);
+//		System.out.println(ur1);
+//		
+//		Transaction tx2 = session.beginTransaction();
 //		User user = new User(0,null,"myUserName","password","Raymond", "Lee", "rlee252@gmail.com");
 //		session.save(user);
 //		user.setUserRole(ur1);
-//		tx.commit();	
+//		tx2.commit();	
+//		
+//		User user2 = session.get(User.class, 1);
+//		System.out.println(user2);
+//		
+//		Transaction tx3 = session.beginTransaction();
+//		ReimbursementType reimType = new ReimbursementType(0,"food");
+//		session.save(reimType);
+//		tx3.commit();
+//		
+//		ReimbursementType reimType2 = session.get(ReimbursementType.class, 1);
+//		System.out.println(reimType2);
+//		
+//		Transaction tx4 = session.beginTransaction();
+//		ReimbursementStatus reimStat = new ReimbursementStatus(0,"pending");
+//		session.save(reimStat);
+//		tx4.commit();
+//		
+//		ReimbursementStatus reimStat2 = session.get(ReimbursementStatus.class, 1);
+//		System.out.println(reimStat2);
+//		
+//		Transaction tx5 = session.beginTransaction();
+//		Reimbursement reim = new Reimbursement(0, user2, reimStat2,reimType2, 100, "something to say", null, null);
+//		session.save(reim);
+//		tx5.commit();
+//		
+//		Reimbursement reim2 = session.get(Reimbursement.class, 1);
+//		System.out.println(reim2);
 		
-		User user2 = session.get(User.class, 2);
-		System.out.println(user2);
 	}
 
 }

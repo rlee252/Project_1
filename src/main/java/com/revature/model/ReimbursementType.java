@@ -14,19 +14,19 @@ public class ReimbursementType {
 
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "reimb_type_id")
 	private int reimbTypeId;
 	
 	@Column(name = "reimb_type")
-	private char reimbType;
+	private String reimbType;
 
 	public ReimbursementType() {
 		super();
 		
 	}
 
-	public ReimbursementType(int reimbTypeId, char reimbType) {
+	public ReimbursementType(int reimbTypeId, String reimbType) {
 		super();
 		this.reimbTypeId = reimbTypeId;
 		this.reimbType = reimbType;
@@ -40,11 +40,11 @@ public class ReimbursementType {
 		this.reimbTypeId = reimbTypeId;
 	}
 
-	public char getReimbType() {
+	public String getReimbType() {
 		return reimbType;
 	}
 
-	public void setReimbType(char reimbType) {
+	public void setReimbType(String reimbType) {
 		this.reimbType = reimbType;
 	}
 
@@ -52,7 +52,7 @@ public class ReimbursementType {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + reimbType;
+		result = prime * result + ((reimbType == null) ? 0 : reimbType.hashCode());
 		result = prime * result + reimbTypeId;
 		return result;
 	}
@@ -66,7 +66,10 @@ public class ReimbursementType {
 		if (getClass() != obj.getClass())
 			return false;
 		ReimbursementType other = (ReimbursementType) obj;
-		if (reimbType != other.reimbType)
+		if (reimbType == null) {
+			if (other.reimbType != null)
+				return false;
+		} else if (!reimbType.equals(other.reimbType))
 			return false;
 		if (reimbTypeId != other.reimbTypeId)
 			return false;
@@ -77,6 +80,8 @@ public class ReimbursementType {
 	public String toString() {
 		return "ReimbursementType [reimbTypeId=" + reimbTypeId + ", reimbType=" + reimbType + "]";
 	}
+
+	
 	
 	
 	
