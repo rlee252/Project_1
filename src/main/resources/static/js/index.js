@@ -1,8 +1,10 @@
 document.querySelector('#login').addEventListener('click', login);
 
-function login() {
+function login(event) {
     let un = document.querySelector('#username').value;
     let pw = document.querySelector('#password').value;
+
+    event.preventDefault();
 
     let data = {
         username: un,
@@ -20,18 +22,20 @@ function login() {
     }).then((response) => {
         if (response.status === 200) {
             window.location.href = '/landing.html';
-        } else if (response.status >= 400) {
+        } else {
             displayInvalidLogin();
 
         }
     })
 
+
+
 }
 
 function displayInvalidLogin() {
-    let bodyElement = document.querySelector('body');
-    let pElement = document.createElement('p');
+    //let bodyElement = document.querySelector('#invalid');
+    let pElement = document.querySelector('#invalid');
     pElement.style.color = 'red';
     pElement.innerHTML = 'Invalid login';
-    bodyElement.appendChild(pElement);
+
 }

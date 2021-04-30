@@ -24,7 +24,7 @@ public class UserDAO {
 
 	public User getUserByUsernameAndPassword(LoginDTO loginDTO) throws  ClientNotFoundException, DatabaseException, SQLException {
 
-		try (Session session = SessionUtility.getSessionFactory().openSession();) {
+		try (Session session = SessionUtility.getSessionFactory().openSession()) {
 			 String userTest = loginDTO.getUsername();
 			 String passTest = loginDTO.getPassword();
 			 User username  = (User) session.createQuery("FROM User u WHERE u.username = ?1 AND u.password = ?2 ")

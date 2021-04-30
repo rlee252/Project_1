@@ -30,7 +30,7 @@ public class Test {
 //		System.out.println(reim2);
 		
 //		Transaction tx = session.beginTransaction();
-//		UserRoles userRole1 = new UserRoles(0,"Employee");
+//		UserRoles userRole1 = new UserRoles(0,"Finance Manager");
 //		session.save(userRole1);
 //		tx.commit();
 //		
@@ -38,13 +38,13 @@ public class Test {
 //		System.out.println(ur1);
 //		
 //		Transaction tx2 = session.beginTransaction();
-//		User user = new User(0,null,"myUserName","password","Raymond", "Lee", "rlee252@gmail.com");
+//		User user = new User(0,null,"iLoveBagels","password","John", "Jacobs", "johnjacobs@gmail.com");
 //		session.save(user);
-//		user.setUserRole(ur1);
+//		user.setUserRole(userRole1);
 //		tx2.commit();	
 //		
 //		Transaction tx7 = session.beginTransaction();
-//		User user3 = new User(0,null,"myUserName2","password","Gary", "Lee", "rlee252@gmail.com");
+//		User user3 = new User(0,null,"newUser","password","Billy", "Mays", "bm@gmail.com");
 //		session.save(user3);
 //		user3.setUserRole(ur1);
 //		tx7.commit();	
@@ -73,9 +73,9 @@ public class Test {
 //		//reim.setReimbResolver(user3);
 //		session.save(reim);
 //		tx5.commit();
-		
-		User reim2 = session.get(User.class, 1);
-		System.out.println(reim2);
+//		
+//		User reim2 = session.get(User.class, 1);
+//		System.out.println(reim2);
 		
 		
 	}

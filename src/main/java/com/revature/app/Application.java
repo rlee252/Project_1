@@ -4,13 +4,16 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.revature.controller.Controller;
 import com.revature.controller.ExceptionMapper;
 import com.revature.controller.LoginController;
+import com.revature.controller.ReimbController;
 import com.revature.controller.StaticFileController;
+import com.revature.model.Reimbursement;
 import com.revature.model.User;
 import com.revature.util.ConnectionUtil;
 import com.revature.util.SessionUtility;
@@ -24,9 +27,9 @@ public class Application {
 			config.addStaticFiles("static");
 		});
 		
-		mapControllers(app, new LoginController(), new ExceptionMapper(), new StaticFileController());
+		mapControllers(app, new LoginController(), new ExceptionMapper(), new StaticFileController(), new ReimbController());
 		
-	//See if database is connected
+		//See if database is connected
 //		try {
 //			Connection connection =  ConnectionUtil.getConnection();
 //			System.out.println(connection);
@@ -37,6 +40,12 @@ public class Application {
 
 		User reim2 = session.get(User.class, 1);
 		System.out.println(reim2);
+		
+//		Transaction tx = session.beginTransaction();
+//		Reimbursement reim = new Reimbursement(0,null,null,null,null,2450, "took a cab",null,null);
+//		session.save(reim);
+//		//reim.setUser(user); // I can actually set my reim to this particular user
+//		tx.commit();
 		
 		app.start(7000);
 	}
