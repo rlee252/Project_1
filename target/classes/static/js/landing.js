@@ -17,7 +17,7 @@ function renderCurrentUser() {
         let username = data.username;
         let password = data.password;
         let userInfoElement = document.querySelector('#user');
-        userInfoElement.innerHTML = `User id: ${id}, username: ${username}, password: ${password}`;
+        userInfoElement.innerHTML = ` user logged in as: ${username}`;
     })
 }
 

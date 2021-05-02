@@ -14,6 +14,7 @@ import com.revature.model.User;
 public class LoginService {
 	
 	private UserDAO userDAO;
+	
 	public LoginService() {
 		this.userDAO = new UserDAO();
 	}

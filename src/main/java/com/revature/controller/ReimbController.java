@@ -42,9 +42,9 @@ public class ReimbController implements Controller{
 	};
 	
 	private Handler getReimbHandler2 = ctx -> {
-		User user = (User) ctx.sessionAttribute("currentlyLoggedInUser");
-		List<Reimbursement> Reimbursement = reimbService.getReimb2(user);
-		ctx.json(Reimbursement);
+		
+		List<ReimbViewDTO> reimbViewDTO = reimbService.getReimb2();
+		ctx.json(reimbViewDTO);
 		ctx.status(200);
 	};
 	
@@ -53,7 +53,7 @@ public class ReimbController implements Controller{
 		app.get("/Reimb", getReimbHandler);
 		app.post("/Reimb", addReimbHandler);
 		app.get("/getAllReimb", getAllReimbHandler);
-		app.get("/ReimbV2", addReimbHandler);
+		app.get("/ReimbV2", getReimbHandler2);
 	}
 
 }

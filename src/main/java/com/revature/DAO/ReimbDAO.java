@@ -1,6 +1,8 @@
 package com.revature.DAO;
 
 import java.sql.Blob;
+import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -60,18 +62,38 @@ public class ReimbDAO {
 		return reimb;
 	}
 
-	public List<Reimbursement> getReimb2(User user) {
+	public List<ReimbViewDTO> getReimb2() {
+		
 		Session session = SessionUtility.getSessionFactory().openSession();
 		
 		List<Reimbursement> reimb = session.createQuery("FROM Reimbursement r")
 										   .getResultList();
-	
+		List<ReimbViewDTO> reimbViewDTO = new ArrayList<>();
+			//reimbViewDTO.add(new ReimbViewDTO(12,"pending","food",100,"fun",null,null) );
+			
+			for (Reimbursement r: reimb) {
+				int id = ((Reimbursement) r).getReimbId();
+				
+				String description =  ((Reimbursement) r).getDescription();
+				
+				ReimbursementStatus reimbStat = ((Reimbursement) r).getReimbStatus();
+				String status = reimbStat.getReimbStatus();
+				
+				ReimbursementType reimbType = ((Reimbursement) r).getReimbType();
+				String type = reimbType.getReimbType();
+				
+				int amount = ((Reimbursement) r).getReimbAmount();
+				
+				Timestamp created = ((Reimbursement) r).getCreatedOn();
+				
+				Blob reimbReceipt =  ((Reimbursement) r).getReceipt();
+				
+					reimbViewDTO.add(new ReimbViewDTO(id, status,type,amount, description,null,null));
 		
-		return reimb;
+				}
+
+			return reimbViewDTO;
 	}
-
-
-
 
 
 }

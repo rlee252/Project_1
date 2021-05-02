@@ -31,8 +31,8 @@ public class ReimbService {
 		return reimbDAO.getAllReimb(user);
 	}
 
-	public List<Reimbursement> getReimb2(User user) {
-		return reimbDAO.getReimb2(user);
+	public List<ReimbViewDTO> getReimb2() {
+		return reimbDAO.getReimb2();
 	}
 
 

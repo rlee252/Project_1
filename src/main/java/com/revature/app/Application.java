@@ -13,6 +13,7 @@ import com.revature.controller.ExceptionMapper;
 import com.revature.controller.LoginController;
 import com.revature.controller.ReimbController;
 import com.revature.controller.StaticFileController;
+import com.revature.controller.UserController;
 import com.revature.model.Reimbursement;
 import com.revature.model.User;
 import com.revature.util.ConnectionUtil;
@@ -27,7 +28,7 @@ public class Application {
 			config.addStaticFiles("static");
 		});
 		
-		mapControllers(app, new LoginController(), new ExceptionMapper(), new StaticFileController(), new ReimbController());
+		mapControllers(app, new LoginController(), new ExceptionMapper(), new StaticFileController(), new ReimbController(), new UserController());
 		
 		//See if database is connected
 //		try {
@@ -36,10 +37,7 @@ public class Application {
 //		} catch (SQLException e) {
 //			e.printStackTrace();
 //		} 
-		Session session = SessionUtility.getSessionFactory().openSession();
-
-		User reim2 = session.get(User.class, 1);
-		System.out.println(reim2);
+	
 		
 //		Transaction tx = session.beginTransaction();
 //		Reimbursement reim = new Reimbursement(0,null,null,null,null,2450, "took a cab",null,null);

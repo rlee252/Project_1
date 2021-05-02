@@ -11,6 +11,7 @@ import javax.persistence.NoResultException;
 
 import org.hibernate.Session;
 
+import com.revature.dto.AddUserDTO;
 import com.revature.dto.LoginDTO;
 import com.revature.exceptions.ClientNotFoundException;
 import com.revature.exceptions.DatabaseException;
@@ -40,5 +41,10 @@ public class UserDAO {
 		} catch (NoResultException e) {
 		throw new ClientNotFoundException("Client with username/password was not found.");
 		}
+	}
+
+	public User addUser(AddUserDTO addUserDTO) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
