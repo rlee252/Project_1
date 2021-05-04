@@ -10,6 +10,7 @@ import java.util.List;
 import javax.persistence.NoResultException;
 
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import com.revature.dto.AddUserDTO;
 import com.revature.dto.LoginDTO;
@@ -17,6 +18,7 @@ import com.revature.exceptions.ClientNotFoundException;
 import com.revature.exceptions.DatabaseException;
 
 import com.revature.model.User;
+import com.revature.model.UserRoles;
 import com.revature.util.ConnectionUtil;
 import com.revature.util.SessionUtility;
 
@@ -44,7 +46,25 @@ public class UserDAO {
 	}
 
 	public User addUser(AddUserDTO addUserDTO) {
-		// TODO Auto-generated method stub
-		return null;
+		Transaction tx1 = session.beginTransaction();
+	
+		
+		String username = addUserDTO.getUsername();
+		String password = addUserDTO.getPassword();
+		String firstname = addUserDTO.getFirstname();
+		String lastname = addUserDTO.getLastname();
+		String email = addUserDTO.getEmail();
+		String role = addUserDTO.getRole();
+		
+		
+		UserRoles userrole = new UserRoles(0, role);
+		session.save(userrole);
+		
+		User userAdd = new User(0,userrole,username,password,firstname,lastname,email);
+		session.save(userAdd);
+		tx1.commit();
+		return userAdd;
+		
+
 	}
 }

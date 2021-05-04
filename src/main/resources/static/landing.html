@@ -14,20 +14,62 @@
 
     <nav>
         <ul>
-            <li><a href="/landing.html">home</a></li>
             <li>
-                <a href="/reimb.html">reimbursement</a>
+                <a href="/landing.html">reimbursement</a>
                 <ul>
                     <li><a href="/reimbAdd.html">add reimbursements</a></li>
-                    <li><a href="/reimbView.html">view reimbursements</a></li>
+                    <li><a href="/landing.html">view reimbursements</a></li>
                 </ul>
             </li>
             <li><a href="" id="logout">logout</a></li>
         </ul>
     </nav>
-    <p id="user">User: </p>
+    <br>
+
+    <h1 id="userdisplay">User Display</h1>
+    <br>
+    <section id="reimbTable">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr id="employee">
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="financeManagerTable">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr id="finance">
+
+                </tr>
+            </thead>
+            <tbody id="financeView">
+
+            </tbody>
+        </table>
+    </section>
+
 
     <script src="js/landing.js"></script>
+    <script src="js/roleChecker.js"></script>
 </body>
 
 </html>

@@ -17,8 +17,9 @@ public class UserController implements Controller {
 	
 	private Handler addUserHandler = (ctx)-> {
 		AddUserDTO addUserDTO = ctx.bodyAsClass(AddUserDTO.class);
-		User user = UserService.addUser(addUserDTO);
-		ctx.json(user);
+		 User user = UserService.addUser(addUserDTO);
+		ctx.json("user has been added " + user);
+		ctx.status(200);
 	};
 	
 	@Override

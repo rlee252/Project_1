@@ -2,6 +2,7 @@ package com.revature.controller;
 
 import java.util.List;
 
+import com.revature.dto.FinanceManagerViewDTO;
 import com.revature.dto.LoginDTO;
 import com.revature.dto.ReimbAddDTO;
 import com.revature.dto.ReimbViewDTO;
@@ -35,16 +36,22 @@ public class ReimbController implements Controller{
 	};
 	
 	private Handler getAllReimbHandler = ctx -> {
-		User user = (User) ctx.sessionAttribute("currentlyLoggedInUser");
-		List<Reimbursement> Reimbursement = reimbService.getAllReimb(user);
+		//User user = (User) ctx.sessionAttribute("currentlyLoggedInUser");
+		List<Reimbursement> Reimbursement = reimbService.getAllReimb();
 		ctx.json(Reimbursement);
 		ctx.status(200);
 	};
-	
 	private Handler getReimbHandler2 = ctx -> {
-		
-		List<ReimbViewDTO> reimbViewDTO = reimbService.getReimb2();
+		User user = (User) ctx.sessionAttribute("currentlyLoggedInUser");
+		List<ReimbViewDTO> reimbViewDTO = reimbService.getReimb2(user);
 		ctx.json(reimbViewDTO);
+		ctx.status(200);
+	};
+	
+	private Handler financeManagerViewHandler = ctx -> {
+		
+		List<FinanceManagerViewDTO> financeManagerViewDTO = reimbService.getFinanceManagerView();
+		ctx.json(financeManagerViewDTO);
 		ctx.status(200);
 	};
 	
@@ -54,6 +61,7 @@ public class ReimbController implements Controller{
 		app.post("/Reimb", addReimbHandler);
 		app.get("/getAllReimb", getAllReimbHandler);
 		app.get("/ReimbV2", getReimbHandler2);
+		app.get("/financeManagerView", financeManagerViewHandler);
 	}
 
 }

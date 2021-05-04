@@ -6,7 +6,7 @@ import com.revature.model.User;
 
 public class UserService {
 	
-	private UserDAO userDAO;
+	private static UserDAO userDAO;
 	
 	public UserService() {
 		this.userDAO = new UserDAO();
@@ -16,7 +16,7 @@ public class UserService {
 		this.userDAO = userDAO;
 	}
 	
-	public User addUser(AddUserDTO addUserDTO) {
+	public static User addUser(AddUserDTO addUserDTO) {
 		
 		User user = userDAO.addUser(addUserDTO);
 		return user;

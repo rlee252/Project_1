@@ -1,8 +1,4 @@
 
-document.querySelector('#login').addEventListener('click', login);
-function login() {
-    console.log("working...")
-}
 //------------------------------------------------------------------------------
 window.onload = function () {
     renderCurrentUser();
@@ -20,12 +16,8 @@ function renderCurrentUser() {
         return response.json();
     }).then((data) => {
 
-        // let id = data.id;
-        // let username = data.username;
-        // let password = data.password;
-        // let userInfoElement = document.querySelector('#user');
-        // userInfoElement.innerHTML = ` user logged in as: ${username}`;
-        console.log(data);
+
+        //console.log(data);
         for (let i = 0; i < data.length; i++) {
 
             let id = data[i].reimbId;
@@ -67,11 +59,7 @@ function renderCurrentUser() {
             td7.innerHTML = `${receipt}`;
             tr.appendChild(td7);
 
-
-
         }
-
-
 
     })
 }
